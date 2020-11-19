@@ -189,6 +189,10 @@ small {
 
 a:hover {}
 
+iframe {
+    display: block;
+    border-style:none;
+}
 /* Navigation ————————————————————————————————————————————————————————————————————— */
 
 #nav {
@@ -1158,6 +1162,11 @@ display: inline-block; height: 1px; width: 6rem; margin: 0rem 0.5rem; background
   border-bottom: 1px solid var(--used-blue);
 }
 
+#event-1-video {
+position:relative;
+top:1.5rem;
+width:100%;
+}
 #event-title {
 
     padding: 2rem 3rem 2rem 3rem;
